@@ -1,0 +1,14 @@
+# Target labels
+ protobuf-populate
+# Source files and their labels
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate-complete.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-install.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-mkdir.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-download.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-update.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-patch.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-configure.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-build.rule
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-test.rule

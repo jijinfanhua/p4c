@@ -1,0 +1,169 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /home/fengyong/Desktop/p4c -B /home/fengyong/Desktop/p4c/cmake-build-debug
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Found FLEX: /usr/bin/flex (found suitable version "2.6.4", minimum required is "2.0") 
+-- Found BISON: /usr/bin/bison (found suitable version "3.5.1", minimum required is "3.0") 
+Fetching Protobuf version 21.12 for P4C...
+-- Populating protobuf
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild
+Scanning dependencies of target protobuf-populate
+[ 11%] Creating directories for 'protobuf-populate'
+[ 22%] Performing download step (download, verify and extract) for 'protobuf-populate'
+-- Downloading...
+   dst='/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-cpp-3.21.12.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz'
+-- Retrying...
+-- Using src='https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz'
+-- Retry after 5 seconds (attempt #2) ...
+-- Using src='https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz'
+-- Retry after 5 seconds (attempt #3) ...
+-- Using src='https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz'
+-- Retry after 15 seconds (attempt #4) ...
+-- Using src='https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz'
+-- Retry after 60 seconds (attempt #5) ...
+-- Using src='https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz'
+CMake Error at protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/download-protobuf-populate.cmake:159 (message):
+  Each download failed!
+
+    error: downloading 'https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz' failed
+         status_code: 28
+         status_string: "Timeout was reached"
+         log:
+         --- LOG BEGIN ---
+           Trying 20.205.243.166:443...
+
+  TCP_NODELAY set
+
+  connect to 20.205.243.166 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz' failed
+         status_code: 28
+         status_string: "Timeout was reached"
+         log:
+         --- LOG BEGIN ---
+           Trying 20.205.243.166:443...
+
+  TCP_NODELAY set
+
+  connect to 20.205.243.166 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz' failed
+         status_code: 28
+         status_string: "Timeout was reached"
+         log:
+         --- LOG BEGIN ---
+           Trying 20.205.243.166:443...
+
+  TCP_NODELAY set
+
+  connect to 20.205.243.166 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz' failed
+         status_code: 28
+         status_string: "Timeout was reached"
+         log:
+         --- LOG BEGIN ---
+           Trying 20.205.243.166:443...
+
+  TCP_NODELAY set
+
+  connect to 20.205.243.166 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz' failed
+         status_code: 28
+         status_string: "Timeout was reached"
+         log:
+         --- LOG BEGIN ---
+           Trying 20.205.243.166:443...
+
+  TCP_NODELAY set
+
+  connect to 20.205.243.166 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz' failed
+         status_code: 28
+         status_string: "Timeout was reached"
+         log:
+         --- LOG BEGIN ---
+           Trying 20.205.243.166:443...
+
+  TCP_NODELAY set
+
+  connect to 20.205.243.166 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         
+    
+
+
+make[2]: *** [CMakeFiles/protobuf-populate.dir/build.make:92: protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-download] Error 1
+make[1]: *** [CMakeFiles/Makefile2:76: CMakeFiles/protobuf-populate.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2
+CMake Error at /usr/share/cmake-3.16/Modules/FetchContent.cmake:915 (message):
+  Build step for protobuf failed: 2
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FetchContent.cmake:1006 (__FetchContent_directPopulate)
+  cmake/P4CUtils.cmake:413 (FetchContent_Populate)
+  cmake/Protobuf.cmake:64 (fetchcontent_makeavailable_but_exclude_install)
+  CMakeLists.txt:155 (p4c_obtain_protobuf)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/fengyong/Desktop/p4c/cmake-build-debug/CMakeFiles/CMakeOutput.log".

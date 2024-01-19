@@ -1,0 +1,3 @@
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/CMakeFiles/rebuild_cache.dir
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/CMakeFiles/edit_cache.dir
+/home/fengyong/Desktop/p4c/cmake-build-debug/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate.dir
